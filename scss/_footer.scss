@@ -1,0 +1,12 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: darkcyan;
+    margin-top: 1px;
+
+    footer a {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}

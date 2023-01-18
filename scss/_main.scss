@@ -1,0 +1,130 @@
+@import './variables';
+
+main {
+    width: 100%;
+
+    h1 {
+        text-align: center;
+    }
+}
+
+section {
+    width: 100%;
+    
+}
+.st-descripcion{
+    background-color: #e4fff9;
+    background-image:url("../Imagenes/Mendoza-SAJ.jpg");
+    background-position: center;
+    background-size: 80rem;
+    background-repeat: no-repeat;
+    height: 600px;
+
+    .descripcion {
+        padding-top: 2%;
+        padding-left: 10%;
+        padding-right: 10%;
+        height: 300px;
+        margin-left: 15%;
+        margin-right: 15%;
+        display: flex;
+        flex-wrap: wrap;
+        color:darkmagenta;
+        font-size: large;
+        div{
+            
+            justify-content: center;
+            /* height: 10px; */
+            width: 100%;
+            /* margin-left: 25%;
+            margin-right: 25%; */
+            background-attachment: scroll;
+            
+            h1{
+                
+                background: orange;
+                opacity: 0.5;
+                border-radius: 4px;
+            }
+            p{
+                text-align: center;
+                width: 100%;
+                background-color: lightblue;
+                opacity: 0.7;
+                border-radius: 4px;
+                
+            }
+        }
+        
+        
+    }
+    
+}
+
+
+.padre-container {
+
+    width: auto;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #e4fff9;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    a{
+        text-decoration: none;
+    }
+
+}
+
+.item-hijo {
+    width: 300px;
+    border: 1px solid black;
+    height: 200px;
+    margin: 15px;
+    text-align: center;
+    border-radius: 4px;
+    font-family: $font-family;
+
+    .item-hijo1, .item-hijo2, .item-hijo3, .item-hijo4, .item-hijo5 {
+        width:100%;
+        height:100%;
+        margin: 0;
+        background-size: cover;
+    }
+
+    .item-hijo1{
+        background-image:url("../Imagenes/GranMendoza.jpg");
+    }
+    .item-hijo2{
+        background-image: url("../Imagenes/ZonaSur.jpg");        
+    }
+    .item-hijo3{
+        background-image: url("../Imagenes/ZonaEste.jpg");        
+    }
+    .item-hijo4{
+        background-image: url("../Imagenes/ValleUco.jpg");
+    }
+    .item-hijo5{
+        background-image: url("../Imagenes/AltaMontaña.jpg");        
+    }
+
+    div{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 10%;
+    }
+
+    &:hover {
+        box-shadow: 5px 5px 20px black;
+        background-color: #75c775;
+    }
+}
+
+/* .item-hijo1, .item-hijo2{
+    width:100%;
+    height:100%;
+    margin: 0;
+    background-image:url("../Imagenes/GranMendoza.jpg");
+    background-size: cover;
+} */

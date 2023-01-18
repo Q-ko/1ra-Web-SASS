@@ -1,0 +1,127 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  background-color: #007B8F; }
+  header .nav-conteiner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px; }
+    header .nav-conteiner a {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-decoration: none;
+      color: #fafafa;
+      font-weight: 700; }
+      header .nav-conteiner a:hover {
+        color: cadetblue;
+        text-decoration: double; }
+
+.logo {
+  font-family: cursive;
+  font-size: 15px; }
+
+main {
+  width: 100%; }
+  main h1 {
+    text-align: center; }
+
+section {
+  width: 100%; }
+
+.st-descripcion {
+  background-color: #e4fff9;
+  background-image: url("../Imagenes/Mendoza-SAJ.jpg");
+  background-position: center;
+  background-size: 80rem;
+  background-repeat: no-repeat;
+  height: 600px; }
+  .st-descripcion .descripcion {
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 300px;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    color: darkmagenta;
+    font-size: large; }
+    .st-descripcion .descripcion div {
+      justify-content: center;
+      /* height: 10px; */
+      width: 100%;
+      /* margin-left: 25%;
+            margin-right: 25%; */
+      background-attachment: scroll; }
+      .st-descripcion .descripcion div h1 {
+        background: orange;
+        opacity: 0.5;
+        border-radius: 4px; }
+      .st-descripcion .descripcion div p {
+        text-align: center;
+        width: 100%;
+        background-color: lightblue;
+        opacity: 0.7;
+        border-radius: 4px; }
+
+.padre-container {
+  width: auto;
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: #e4fff9;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .padre-container a {
+    text-decoration: none; }
+
+.item-hijo {
+  width: 300px;
+  border: 1px solid black;
+  height: 200px;
+  margin: 15px;
+  text-align: center;
+  border-radius: 4px;
+  font-family: "Verdana"; }
+  .item-hijo .item-hijo1, .item-hijo .item-hijo2, .item-hijo .item-hijo3, .item-hijo .item-hijo4, .item-hijo .item-hijo5 {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-size: cover; }
+  .item-hijo .item-hijo1 {
+    background-image: url("../Imagenes/GranMendoza.jpg"); }
+  .item-hijo .item-hijo2 {
+    background-image: url("../Imagenes/ZonaSur.jpg"); }
+  .item-hijo .item-hijo3 {
+    background-image: url("../Imagenes/ZonaEste.jpg"); }
+  .item-hijo .item-hijo4 {
+    background-image: url("../Imagenes/ValleUco.jpg"); }
+  .item-hijo .item-hijo5 {
+    background-image: url("../Imagenes/AltaMontaña.jpg"); }
+  .item-hijo div {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10%; }
+  .item-hijo:hover {
+    box-shadow: 5px 5px 20px black;
+    background-color: #75c775; }
+
+/* .item-hijo1, .item-hijo2{
+    width:100%;
+    height:100%;
+    margin: 0;
+    background-image:url("../Imagenes/GranMendoza.jpg");
+    background-size: cover;
+} */
+footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: darkcyan;
+  margin-top: 1px; }
+  footer footer a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }

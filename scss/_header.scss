@@ -1,0 +1,29 @@
+header {
+    background-color: #007B8F;
+
+    .nav-conteiner{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 10px;
+
+        a {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-decoration: none;
+            color: #fafafa;
+            font-weight: 700;
+            
+            &:hover {
+                color: cadetblue;
+                text-decoration: double;
+            }
+        }
+    }
+}
+
+
+.logo {
+    font-family: cursive;
+    font-size: 15px;
+}
